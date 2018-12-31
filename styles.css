@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Playfair+Display');
+body{
+    background-color: lightgrey;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hoverEffect:hover .image {
+    opacity: 0.3;
+}
+
+
+.text {
+    background-color: darkred;
+    color: #CAA805;
+    font-family: 'Playfair Display', serif; !important;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+
+
+
+.navbar{
+    background-color: darkred;
+    font-family: 'Playfair Display', serif; !important;
+
+}
+
+.navbar-brand{
+}
+i{
+    font-size: 30px;
+    color: #CAA805;
+}
+.navbar .btn{
+    color: #CAA805; !important;
+}
+ .btn-outline-primary{
+    font-size: 20px;!important;
+    border-color: #CAA805;
+
+}
+
+.btn-outline-primary:hover{
+    font-size: 20px;!important;
+    background-color: darkred;
+    border-color: white;
+    color: white;
+}
+
+
+
+
+body {
+    font-size: 20px;
+    color: #212529;
+}
+.navbar-brand{
+    color: #CAA805;
+}
+header.masthead {
+    margin-bottom: 50px;
+    background: no-repeat;
+    background: center;
+
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    display: none;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+}
+
+header.masthead .site-heading {
+    text-align: center;
+    font-family: 'Playfair Display', serif; !important;
+    padding: 200px 0 150px;
+    color: white;
+
+}
+
+h2{
+    color:#CAA805;
+
+}
+
+
+header.masthead .site-heading h1 {
+    font-size: 50px;
+    margin-top: 0;
+    color:#CAA805;
+}
+
+@media only screen and (min-width: 768px) {
+    header.masthead .site-heading h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px)  {
+    #audioplayer{
+        width: 100%;
+    }
+}
+
+a{
+    text-decoration: none;
+    color:#CAA805;
+}
+
+
+
+#login {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn{
+ background-color: darkred;
+    size: 20px;
+    color:#CAA805;
+    font-family: 'Playfair Display', serif; !important;
+
+}
+
+.btn:hover{
+    background-color: darkred;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+#recent-added-products a:hover{
+    color: darkred;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+.nav-item a:hover, .navbar-brand:hover {
+    color: white;
+    border-color: white;
+}
+.silver-bg{
+    background-color: lightgrey;
+}
+
+.social{
+    color: darkred;
+}
+.social:hover{
+    size:200px;
+    color:#CAA805;
+}
+
+
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+/*Cookie Consent End*/
+
